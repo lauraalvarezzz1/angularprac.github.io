@@ -285,28 +285,29 @@
       "dev": true
     },
     "@uirouter/angular": {
-      "version": "1.0.0-beta.9",
-      "resolved": "https://registry.npmjs.org/@uirouter/angular/-/angular-1.0.0-beta.9.tgz",
-      "integrity": "sha512-VJPkh5y/vsiOGxC8A0GwFiS4T3sunUTMg/TT06aNI/gFovSu4R/JJji7Vdia2BZ4JweLnb8gXWNrsIeJP8Pzyw==",
+      "version": "1.0.0-rc.3",
+      "resolved": "https://registry.npmjs.org/@uirouter/angular/-/angular-1.0.0-rc.3.tgz",
+      "integrity": "sha512-h6UMMvwLwwnwT/RsrYuOWuktMGSEro4Tvwbiy/cg2WPk87/kzQHTIsdbEAcV/ucbe68C3aSt068XFmAbYv+QVQ==",
       "requires": {
-        "@uirouter/core": "5.0.11",
-        "@uirouter/rx": "0.4.1",
+        "@uirouter/core": "5.0.14",
+        "@uirouter/rx": "0.4.5",
+        "ts-loader": "3.2.0",
         "tslib": "1.8.0"
       }
     },
     "@uirouter/core": {
-      "version": "5.0.11",
-      "resolved": "https://registry.npmjs.org/@uirouter/core/-/core-5.0.11.tgz",
-      "integrity": "sha512-x8js8f0nJivRMlxVyFcP5VmHyI091qUYCSEP69+m3uTCsIlCvLWmQiT4/FY7YBe9go6tYBBzPV+dWseg5XMD8Q=="
+      "version": "5.0.14",
+      "resolved": "https://registry.npmjs.org/@uirouter/core/-/core-5.0.14.tgz",
+      "integrity": "sha512-wfNpvwmaVj4FU1QFtQRrr4xKtd79iA/O7Qf+prLCEZFFeBoKteBPxNmzsiD5lQXHhTK23WVabQ11lHsSincsjg=="
     },
     "@uirouter/rx": {
-      "version": "0.4.1",
-      "resolved": "https://registry.npmjs.org/@uirouter/rx/-/rx-0.4.1.tgz",
-      "integrity": "sha1-ZYyeWOhgrjEy+vTHGmvtfpHeAvM=",
+      "version": "0.4.5",
+      "resolved": "https://registry.npmjs.org/@uirouter/rx/-/rx-0.4.5.tgz",
+      "integrity": "sha512-lfYfNE1n9At5Sl7if73XT6iqHKBz0ZQhVbvQ6WZ8zjnBDGEjvIK03IgIYI/YudJmQd1t5my/WSt5+Bygbhw/Mw==",
       "requires": {
         "rollup": "0.41.6",
         "rollup-plugin-commonjs": "8.2.6",
-        "rollup-plugin-node-resolve": "3.0.0",
+        "rollup-plugin-node-resolve": "3.0.2",
         "rollup-plugin-progress": "0.2.1",
         "rollup-plugin-sourcemaps": "0.4.2",
         "rollup-plugin-uglify": "1.0.2",
@@ -971,21 +972,6 @@
       "resolved": "https://registry.npmjs.org/brorand/-/brorand-1.1.0.tgz",
       "integrity": "sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=",
       "dev": true
-    },
-    "browser-resolve": {
-      "version": "1.11.2",
-      "resolved": "https://registry.npmjs.org/browser-resolve/-/browser-resolve-1.11.2.tgz",
-      "integrity": "sha1-j/CbCixCFxihBRwmCzLkj0QpOM4=",
-      "requires": {
-        "resolve": "1.1.7"
-      },
-      "dependencies": {
-        "resolve": {
-          "version": "1.1.7",
-          "resolved": "https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz",
-          "integrity": "sha1-IDEU2CrSxe2ejgQRs5ModeiJ6Xs="
-        }
-      }
     },
     "browserify-aes": {
       "version": "1.1.1",
@@ -2600,9 +2586,9 @@
       "dev": true
     },
     "estree-walker": {
-      "version": "0.5.0",
-      "resolved": "https://registry.npmjs.org/estree-walker/-/estree-walker-0.5.0.tgz",
-      "integrity": "sha512-/bEAy+yKAZQrEWUhGmS3H9XpGqSDBtRzX0I2PgMw9kA2n1jN22uV5B5p7MFdZdvWdXCRJztXAfx6ZeRfgkEETg=="
+      "version": "0.5.1",
+      "resolved": "https://registry.npmjs.org/estree-walker/-/estree-walker-0.5.1.tgz",
+      "integrity": "sha512-7HgCgz1axW7w5aOvgOQkoR1RMBkllygJrssU3BvymKQ95lxXYv6Pon17fBRDm9qhkvXZGijOULoSF9ShOk/ZLg=="
     },
     "esutils": {
       "version": "2.0.2",
@@ -8071,18 +8057,17 @@
       "integrity": "sha512-qK0+uhktmnAgZkHkqFuajNmPw93fjrO7+CysDaxWE5jrUR9XSlSvuao5ZJP+XizxA8weakhgYYBtbVz9SGBpjA==",
       "requires": {
         "acorn": "5.2.1",
-        "estree-walker": "0.5.0",
+        "estree-walker": "0.5.1",
         "magic-string": "0.22.4",
         "resolve": "1.5.0",
         "rollup-pluginutils": "2.0.1"
       }
     },
     "rollup-plugin-node-resolve": {
-      "version": "3.0.0",
-      "resolved": "https://registry.npmjs.org/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-3.0.0.tgz",
-      "integrity": "sha1-i4l8TDAw1QASd7BRSyXSygloPuA=",
+      "version": "3.0.2",
+      "resolved": "https://registry.npmjs.org/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-3.0.2.tgz",
+      "integrity": "sha512-ZwmMip/yqw6cmDQJuCQJ1G7gw2z11iGUtQNFYrFZHmqadRHU+OZGC3nOXwXu+UTvcm5lzDspB1EYWrkTgPWybw==",
       "requires": {
-        "browser-resolve": "1.11.2",
         "builtin-modules": "1.1.1",
         "is-module": "1.0.0",
         "resolve": "1.5.0"
@@ -9194,6 +9179,29 @@
       "resolved": "https://registry.npmjs.org/trim-right/-/trim-right-1.0.1.tgz",
       "integrity": "sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=",
       "dev": true
+    },
+    "ts-loader": {
+      "version": "3.2.0",
+      "resolved": "https://registry.npmjs.org/ts-loader/-/ts-loader-3.2.0.tgz",
+      "integrity": "sha512-4g8BF3gKWBHeM1jAFmMPHofuJlwTUU4iHJ0i3mwXRHwy74RU6VBOgl9kDVMGpapvGcMlVqV5G6v9XmV66Qqd7w==",
+      "requires": {
+        "chalk": "2.3.0",
+        "enhanced-resolve": "3.4.1",
+        "loader-utils": "1.1.0",
+        "semver": "5.4.1"
+      },
+      "dependencies": {
+        "chalk": {
+          "version": "2.3.0",
+          "resolved": "https://registry.npmjs.org/chalk/-/chalk-2.3.0.tgz",
+          "integrity": "sha512-Az5zJR2CBujap2rqXGaJKaPHyJ0IrUimvYNX+ncCy8PJP4ltOGTrHUIo097ZaL2zMeKYpiCdqDvS6zdrTFok3Q==",
+          "requires": {
+            "ansi-styles": "3.2.0",
+            "escape-string-regexp": "1.0.5",
+            "supports-color": "4.5.0"
+          }
+        }
+      }
     },
     "ts-node": {
       "version": "3.2.2",
